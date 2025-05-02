@@ -1,6 +1,5 @@
 #include <iostream>
-#include "../../include/engine/SqliteDatabase.h"
-#include "../include/engine/MenuManager.h"
+#include "../../Albion-Online-Calculator/include/engine/main.h"
 
 int main() {
 		MenuManager m;

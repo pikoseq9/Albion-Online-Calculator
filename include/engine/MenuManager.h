@@ -6,7 +6,7 @@
 #include "../../include/service/CalculatorService.h"
 #include <iomanip>
 #include <string>
-#include <../model/Tier.h>
+
 
 using namespace std;
 
@@ -23,7 +23,7 @@ public:
 	void menuNavigator(); //shows options in menu then asks to choose 1-5 and switch case
 	void showListOfItems(); //shows table of items 
 	void AddItem(); //adds or edits a price to the item (300000/300 000/300k)
-	void loadPricesFromInternet(); //loads prices from internet
+	void loadPricesFromInternet(); //loads prices from internet TODO
 	void useCalculator(); //uses object Calculator to calculate profit on all non-empty Items
 	void exitApp(); //stops the application
 };
